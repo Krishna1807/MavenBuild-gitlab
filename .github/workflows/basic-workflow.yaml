@@ -8,7 +8,7 @@ on:
  pull_request:
    branches: 
      - master
-     - 'releases/**
+     - 'releases/**'
 jobs:
   Basic-Workflow:
     runs-on: ubuntu-latest
