@@ -3,10 +3,10 @@ on:
   - push
 jobs:
   production-deploy: null
-  if: github.ref_name == 'master'
-  runs-on: ubuntu-latest
-  steps:
+   if: github.ref_name == 'master'
+   runs-on: ubuntu-latest
+   steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
-  with: null
-  node-version: "14"
+      with: null
+        node-version: "14"
